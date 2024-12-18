@@ -59,7 +59,7 @@ class: center
 
 ## What is Programming?
 
-<img alt="What is programming?" src="./.assets/what_is_programming.png" height="100%"  width="100%">
+<img alt="What is programming?" src="../.assets/what_is_programming.png" height="100%"  width="100%">
 
 ---
 
@@ -135,6 +135,28 @@ class: center, middle
 
 class: center, middle
 
+### Visualizing Programs: _[The `pdb` Module](https://docs.python.org/3/library/pdb.html)_
+
+ _(live demo)_
+
+- `$ python -m pdb path/to/file.py`
+
+- `(Pdb) step` steps to the next line
+
+- `(Pdb) pp <expression>` pretty prints the variable's value to the console
+
+- `(Pdb) ll` prints the current code level
+
+- `(Pdb) quit`
+
+???
+
+`python -m pdb 2_predictive_stepping/examples/08_while_loops.py`
+
+---
+
+class: center, middle
+
 ### Visualizing Programs: _[VSCode Debugger](https://code.visualstudio.com/docs/python/debugging)_
 
 _(live demo)_
@@ -145,9 +167,18 @@ _(live demo)_
 
 class: middle, center
 
-## Predictive Stepping
+## Predictive Stepping:  _demo_
 
-### _demo_
+Before stepping:
+
+- Which line will execute next?
+- What will happen?
+- What will will change in memory?
+
+After stepping:
+
+- Were your predictions correct?
+- if not, what did you not understand?
 
 ---
 
