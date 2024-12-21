@@ -29,10 +29,16 @@ def reverse_words(text: str) -> str:
     """
     assert isinstance(text, str), "input must be a string"
 
-    words = text.split(" ")
-    result = ""
+    result =text.split(" ")
+    result.reverse()
+    return " ".join(result)
+
+
+
+    # words = text.split(" ")
+    # result = ""
     
-    for word in words:
-        result = " " + word + result
+    # for word in words:
+    #     result = " " + word + result
         
-    return result
+    # return result
