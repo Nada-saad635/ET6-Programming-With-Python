@@ -4,10 +4,10 @@ Write a function that takes in a string and two lists of strings.
 It will return true if the item is in _only one_ of the lists.
 
 """
-def is_in_one(text, list1, list2):
+def is_in_(text, list1, list2):
     """
     The function takes in a string and two lists of strings. 
-    It will return true if the item is in _both_ of the lists.
+    It will return true if the item is in one only of the lists.
 
 
     Parameters:
